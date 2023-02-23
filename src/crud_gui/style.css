@@ -1,0 +1,99 @@
+#txtExit{
+    -fx-text-fill: #2e28f0;
+}
+
+#txtExit:hover{
+    -fx-text-fill: #2FCDF7;
+    -fx-cursor: hand;
+}
+
+#base{
+    -fx-background-color: #2DEDE0;
+}
+
+#inputbase{
+    -fx-background-color: #2FCDF7;
+    -fx-background-radius: 10;
+}
+
+#tablebase{
+    -fx-background-color: #2FCDF7;
+    -fx-background-radius: 10;
+}
+
+/* Buttons */
+#btnAdd, #btnUpdate, #btnDelete{
+    -fx-background-color: #2FCDF7;
+    -fx-background-radius: 10;
+}
+
+#btnAdd:hover, #btnUpdate:hover, #btnDelete:hover{
+    -fx-background-color: #2e28f0;
+    -fx-text-fill: #2FCDF7;
+    -fx-cursor: hand;
+}
+
+/* Textfields */
+#txtManufacturer, #txtType, #txtPrice{
+    -fx-background-color: #2F60F7;
+    -fx-text-fill: #2FCDF7;
+    -fx-background-radius: 10;
+}
+
+/*  Table Columns */
+#idColumn, #manufacturerColumn, #typeColumn, #priceColumn{
+    -fx-text-aligmnet: center;
+    -fx-background-color: #2F60F7;
+    /*-fx-text-fill: #2FCDF7;*/
+}
+
+/* table header */
+.table-view .column-header-background{
+    /* Between the header and the cells */
+    -fx-background-color: #2DEDE0;
+
+    /* Between the header and the cells */
+    -fx-padding: 0 0 10 0;
+}
+
+/* table header */
+.table-view .column-header{
+    -fx-size: 50;
+}
+
+/* table header text */
+.table-view .column-header .label{
+    -fx-text-fill: #2DEDE0;
+}
+
+/* table cells */
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 5;
+    -fx-alignment: CENTER;
+}
+
+/* table cells text*/
+.table-row-cell .text {
+    -fx-fill: #2DEDE0;
+}
+
+/* selected table cells text*/
+.table-row-cell:selected .text {
+    -fx-fill: #2FCDF7;
+}
+
+.table-row-cell:selected .table-row-cell{
+    -fx-background-color: red;
+}
+
+/* Disables scrollbar */
+.table-view .scroll-bar * {
+    -fx-min-width: 0;
+    -fx-pref-width: 0;
+    -fx-max-width: 0;
+
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
