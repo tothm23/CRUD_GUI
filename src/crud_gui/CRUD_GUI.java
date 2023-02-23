@@ -12,12 +12,6 @@ import javafx.stage.StageStyle;
  *
  * @author Tóth Milán
  *
- * https://www.youtube.com/watch?v=fML0QS9t_Po
- * https://color.adobe.com/create/color-wheel
- *
- * A #2E28F0 B #2F60F7 C #368EE0 D #2FCDF7 E #2DEDE0
- * https://o7planning.org/11529/javafx-alert-dialog
- * https://edencoding.com/style-tableview-javafx/
  */
 public class CRUD_GUI extends Application {
 
